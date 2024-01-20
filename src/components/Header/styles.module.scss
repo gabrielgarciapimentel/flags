@@ -1,0 +1,33 @@
+.container {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  transition: 1s;
+
+  .title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+    line-height: 32px; /* 100% */
+  }
+
+  .description {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    margin: 0px;
+  }
+
+  .backButton {
+    border-radius: 10px;
+    margin-right: 8px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+      transition: 1s;
+    }
+  }
+}

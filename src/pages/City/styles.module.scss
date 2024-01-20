@@ -1,0 +1,34 @@
+.container {
+  height: 100%;
+  padding: 32px 16px;
+  // background-color: #FEE000;
+
+  .content {
+    display: flex;
+    height: 70vh;
+    border-radius: 8px;
+    padding: 16px;
+
+    flex-direction: column;
+    overflow-y: auto;
+    // background-color: #002277;
+
+    .title {
+      margin: 0px;
+      margin-bottom: 8px;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #fff
+    }
+
+    .icon {
+      transition: 0.5s;
+      width: 88px;
+      height: 60px;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

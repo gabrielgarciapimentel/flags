@@ -1,0 +1,17 @@
+.container {
+  height: 100%;
+  padding: 32px 16px;
+
+  .content {
+    display: flex;
+    height: 82vh;
+    border-radius: 8px;
+
+    flex-direction: column;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
